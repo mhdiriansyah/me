@@ -1,0 +1,41 @@
+body, html {
+  height: 100%; }
+
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(#2f96a3, #c92e5f);
+  font-family: sans-serif;
+  color: #f2f2f2; }
+  body .photos img {
+    width: 20vh;
+    height: 20vh;
+    background-image: url("../img/pace.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    filter: drop-shadow(0px 1px 10px black);
+    cursor: pointer; }
+  body .location, body .temperature {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    body .location h1, body .temperature h1 {
+      font-size: 40px; }
+  body .temperature {
+    flex-direction: column; }
+    body .temperature .temperature-description p {
+      font-size: 20pt; }
+  body .degre-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer; }
+    body .degre-section h2 {
+      font-size: 35pt; }
+    body .degre-section span {
+      margin: 10px;
+      font-size: 25pt; }
